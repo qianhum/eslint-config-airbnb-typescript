@@ -4,6 +4,11 @@
 
 Airbnb's ESLint config with TypeScript support
 
+Forked from [iamturns/eslint-config-airbnb-typescript](https://github.com/iamturns/eslint-config-airbnb-typescript) with [#201](https://github.com/iamturns/eslint-config-airbnb-typescript/pull/201) merged and [peerDependencies
+ fixed](https://github.com/qianhum/eslint-config-airbnb-typescript/commit/db37b3693ca5e0d6643b90830859a74230048c89).
+
+If you have any questions regarding ESLint rules, please file issues or PRs to the [original repo](https://github.com/iamturns/eslint-config-airbnb-typescript).
+
 ## Setup
 
 ### 1) Install
@@ -24,7 +29,7 @@ If you want to lint React features then use together with `eslint-config-airbnb`
 
 ```bash
 npx install-peerdeps --dev eslint-config-airbnb
-npm install eslint-config-airbnb eslint-config-airbnb-typescript --save-dev
+npm install eslint-config-airbnb eslint-config-airbnb-typescript@qianhum/eslint-config-airbnb-typescript --save-dev
 ```
 
 #### eslint-config-airbnb-base
@@ -33,7 +38,7 @@ If you want to lint without React support then install together with `eslint-con
 
 ```bash
 npx install-peerdeps --dev eslint-config-airbnb-base
-npm install eslint-config-airbnb-base eslint-config-airbnb-typescript --save-dev
+npm install eslint-config-airbnb-base eslint-config-airbnb-typescript@qianhum/eslint-config-airbnb-typescript --save-dev
 ```
 
 ### 2) Configure ESLint
